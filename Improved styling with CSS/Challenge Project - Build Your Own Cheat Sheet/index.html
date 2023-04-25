@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Box Model Cheatsheet</title>
+    </head>
+    <body>
+        <!-- Title -->
+        <h1 class="tilte">
+            Box Model
+        </h1>
+        <!-- Navigation Bar -->
+        <div class="topnav">
+            <a href="#Width-Height">Width & Height</a>
+            <a href="#Border">Border</a>
+            <a href="#Padding">Padding</a>
+            <a href="#Overflow">Overflow</a>
+            <a href="#Visibility">Visibility</a>
+        </div>
+    
+        <p>This cheat sheet dipicts the Box Model and different attributes associated to edit and revies for 
+            a clear more consise website.
+        </p>
+        <h2 class="header" id="Width-Height"> Width & Height </h2>
+        <p class="css-code"> p {  height: 80px;  width: 240px;} </p>
+        <p class="explain">width and height: The width and height of the content area.</p>
+        
+        <h2 class="header" id="Border"> Border </h2>
+        <p class="css-code"> p.content-header {  height: 80px;  width: 240px; border: 3px solid coral; 
+            border-radius: 5px;} </p>
+        <p class="explain">		Border is a line that surrounds an element, like a frame around a painting. Borders can be set with a specific width, style, and color:</p>
+            <ul id="list"> 
+                <li>width—The thickness of the border. A border’s thickness can be set in pixels or with one of the following keywords: thin, medium, or thick.</li>
+                <li>style—The design of the border. Web browsers can render any of 10 different styles. Some of these styles include: none, dotted, and solid.</li>
+                <li>color—The color of the border. Web browsers can render colors using a few different formats, including 140 built-in color keywords.</li>
+                <li>radius—The corners of an element’s border box with the border-radius property.</li>
+            </ul>
+        
+    
+        <h2 class="header" id="Padding"> Padding </h2>
+        <p class="css-code"> p.content-header {  border: 3px solid coral;  padding: 10px;} </p>
+        <p class="explain">The amount of space between the content area and the border.If you want to be more specific about the amount of padding on each side of a box’s content, you can use the following properties:</p>
+            <ul id="list"> 
+                <li>padding-top</li>
+                <li>padding-right</li>
+                <li>padding-bottom</li>
+                <li>padding-left</li>
+            </ul>
+    
+        <h2 class="header">Minimum and Maximum Height & Width</h2>
+        <p class="css-code"> p {  min-width: 300px;  max-width: 600px;} </p>
+        <p class="explain">Minimum and Maximum Height and Width: Because a web page can be viewed through displays of differing screen size, the content on the web page can suffer from those changes in size.</p>
+            <ul id="list"> 
+                <li>min-width/height—this property ensures a minimum width of an element’s box.</li>
+                <li>max-width/height—this property ensures a maximum width of an element’s box.</li>
+            </ul>
+    
+        <h2 class="header" id="Overflow">Overflow</h2>
+        <p class="css-code">p {  overflow: scroll; }</p>
+        <p class="explain">Overflow property controls what happens to content that spills, or overflows, outside its box. The most commonly used values are:</p>
+            <ul id="list"> 
+                <li>hidden—when set to this value, any content that overflows will be hidden from view. </li>
+                <li>scroll—when set to this value, a scrollbar will be added to the element’s box so that the rest of the content can be viewed by scrolling.</li>
+                <li>visible—when set to this value, the overflow content will be displayed outside of the containing element. Note, this is the default value.</li>
+            </ul>
+        <h2 class="header" id="Visibility">Visibility</h2>
+        <p class="css-code">p { visibility: hidden; }</p>
+        <p class="explain">Visibility: elements can be hidden from view with the visibility property. The visibility property can be set to one of the following values:</p>
+            <ul id="list"> 
+                <li>hidden — hides an element.</li>
+                <li>visible — displays an element.</li>
+                <li>collapse — collapses an element.</li>
+            </ul>
+    
+        <div>
+            <table>
+                <tr>
+                    <th>Attribute</th>
+                    <th>CSS Code</th>
+                </tr>
+                <tr>
+                    <td>Width & Height</td>
+                    <td class="css-code">p {  height: 80px;  width: 240px;} </td>
+                </tr>
+                <tr>
+                    <td>Border</td>
+                    <td class="css-code">p.content-header {  height: 80px;  width: 240px; border: 3px solid coral; 
+                        border-radius: 5px;}</td>
+                </tr>
+                <tr>
+                    <td>Padding</td>
+                    <td class="css-code">p.content-header { border: 3px solid coral; padding: 10px;}</td>
+                </tr>
+                <tr>
+                    <td>Overflow</td>
+                    <td class="css-code">p { overflow: scroll; }</td>
+                </tr>
+                <tr>
+                    <td>Visability</td>
+                    <td class="css-code">p { visibility: hidden; }</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

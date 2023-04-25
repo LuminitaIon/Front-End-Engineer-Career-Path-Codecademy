@@ -1,0 +1,123 @@
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 10%;
+}
+
+h2 {
+  font-size: 22px;
+  padding: 30px 0 30px 15px;
+  font-weight: bold;
+}
+section {
+  border: 1px solid black;
+  margin: 10px 10%;
+}
+
+li {
+  list-style: square;
+  margin-left: 40px;
+  font-size: 14px;
+}
+
+.colors div {
+  display: inline-block;
+  width: 30%;
+  margin: 10px 10px;
+  min-height: 100px;
+
+  text-align: center;
+}
+
+.colors p {
+  margin: 20px 0;
+}
+
+#red1 {
+  background-color: rgb(256, 0, 0);
+}
+
+#red2 {
+  background-color: rgb(255, 102, 102);
+}
+
+#green1 {
+  background-color: rgb(0, 256, 0);
+}
+
+#green2 {
+  background-color: rgb(76, 153, 0);
+  color: white;
+}
+
+#blue1 {
+  background-color: rgb(0, 0, 256);
+  color: white;
+}
+
+#blue2 {
+  background-color: rgb(153, 204, 255);
+}
+
+.fonts div {
+  display: inline-block;
+  width: 45%;
+  margin: 10px 10px;
+  min-height: 100px;
+  padding: 5px;
+}
+
+.fonts h3 {
+  text-decoration: underline;
+  font-size: 21px;
+  margin-bottom: 5px;
+}
+
+.fonts p {
+  line-height: 1.8;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#font1 {
+  font-family: "Cantarell";
+}
+
+#font2 {
+  font-family: "Grandstander";
+}
+
+.text p {
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.text div {
+  margin: 20px 5px;
+}
+
+#h1-styles p {
+  font-weight: 800;
+  font-size: 26px;
+}
+
+#h2-styles p {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#p-styles p {
+  font-weight: 400;
+  font-size: 14px;
+}
